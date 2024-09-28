@@ -1,0 +1,87 @@
+/* Search Input Styles */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0; /* Add some space above and below the search input */
+}
+
+.search-input {
+  width: 50%; /* Set input width */
+  border: 1px solid #28a745; /* Green border */
+  padding: 10px; /* Padding for the input */
+  border-radius: 5px; /* Rounded corners */
+  transition: border-color 0.3s; /* Smooth transition */
+}
+
+.search-input:focus {
+  border-color: #007bff; /* Change border color on focus */
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 15px; /* Rounded corners */
+  overflow: hidden; /* Ensures content doesn't overflow */
+  transition: box-shadow 0.3s; /* Smooth transition for shadow */
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+.card-img-top {
+  width: 100%; /* Full width */
+  height: 200px; /* Fixed height for consistency */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.label-top {
+  background-color: #f8f9fa; /* Light background for label */
+  padding: 10px; /* Padding */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center align text */
+}
+
+/* Additional Card Body Styles */
+.card-body {
+  padding: 15px; /* Padding for card body */
+}
+
+.card-title {
+  font-size: 1.1rem; /* Font size for title */
+}
+
+.card-price {
+  font-size: 1rem; /* Font size for price */
+  color: #28a745; /* Green color for price */
+}
+
+.card-stock {
+  color: #007bff; /* Blue color for stock */
+}
+
+.btn {
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for buttons */
+}
+
+.btn-warning {
+  background-color: #ffc107; /* Yellow background */
+  color: #fff; /* White text */
+}
+
+.btn-warning:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.btn-dark {
+  background-color: #343a40; /* Dark background */
+  color: #fff; /* White text */
+}
+
+.btn-dark:hover {
+  background-color: #23272b; /* Darker on hover */
+}
+
+.text-center {
+  text-align: center; /* Center align text */
+}
